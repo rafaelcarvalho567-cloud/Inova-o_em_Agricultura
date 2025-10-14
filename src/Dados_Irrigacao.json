@@ -1,0 +1,40 @@
+{
+  "projeto": "Controle de Irrigação Inteligente",
+  "versao": "1.0",
+  "data_registro": "2025-10-14",
+  "descricao": "Registro de leituras de sensores de umidade e temperatura para controle automático de irrigação.",
+
+  "sensores": {
+    "umidade_solo": {
+      "valor": 45,
+      "unidade": "%",
+      "status": "baixo"
+    },
+    "temperatura": {
+      "valor": 27,
+      "unidade": "°C"
+    },
+    "umidade_ar": {
+      "valor": 60,
+      "unidade": "%"
+    }
+  },
+
+  "bomba_agua": {
+    "status": "ligada",
+    "tempo_acionamento": "10 segundos"
+  },
+
+  "historico": [
+    {
+      "data_hora": "2025-10-14T08:00:00",
+      "umidade_solo": 38,
+      "bomba_ligada": true
+    },
+    {
+      "data_hora": "2025-10-14T08:05:00",
+      "umidade_solo": 55,
+      "bomba_ligada": false
+    }
+  ]
+}
