@@ -1,33 +1,31 @@
 # FIAP - Faculdade de Informática e Administração Paulista 
 
-<p align="center">
-<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
-</p>
+# 💧 Controle de Irrigação Inteligente
 
-<br>
-
-# Nome do projeto
-
-## Nome do grupo
-
-## 👨‍🎓 Integrantes: 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 1</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 2</a>
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 3</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 4</a> 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do integrante 5</a>
+## 👨‍🎓 Integrantes:
+- Gustavo Borges – RM: 567477  
+- Paulo Enrique Sousa Tourinho dos Santos – RM: 567490  
+- Rodrigo Frederico Lucena Moreira – RM: 568366  
+- Rafael Victor Silva de Carvalho – RM: 566622  
 
 ## 👩‍🏫 Professores:
-### Tutor(a) 
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Tutor</a>
-### Coordenador(a)
-- <a href="https://www.linkedin.com/company/inova-fusca">Nome do Coordenador</a>
+**Tutor(a):** Edson Oliveira
+**Coordenador(a):** André Godoi
 
+---
 
 ## 📜 Descrição
 
-*Descreva seu projeto com base no texto do PBL (até 600 palavras)*
+O projeto **Controle de Irrigação Inteligente** tem como objetivo desenvolver um sistema automatizado capaz de monitorar e controlar a irrigação de plantas utilizando sensores de umidade do solo, temperatura e umidade do ar.  
+O foco principal é aplicar conceitos de **automação, Internet das Coisas (IoT)** e **programação Python**, criando um protótipo funcional que possa otimizar o uso de água em pequenas hortas urbanas e ambientes agrícolas controlados.
 
+O sistema é baseado em um microcontrolador (como o ESP32) conectado a sensores que coletam dados em tempo real. O algoritmo processa essas informações e aciona uma bomba d’água quando o solo atinge um nível de umidade abaixo do limite ideal.  
+
+Além do controle automático, o projeto também inclui a possibilidade de registrar dados em formato **JSON**, facilitando o armazenamento e análise das informações coletadas, permitindo futuras melhorias na eficiência da irrigação.
+
+Este projeto integra conhecimentos das disciplinas de **Programação**, **Sistemas Embarcados** e **Modelagem de Dados**, promovendo o aprendizado prático e interdisciplinar na área de **Tecnologia e Inovação Agrícola**.
+
+---
 
 ## 📁 Estrutura de pastas
 
@@ -41,23 +39,35 @@ Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
 
 - <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
 
+
+---
+
 ## 🔧 Como executar o código
 
-*Acrescentar as informações necessárias sobre pré-requisitos (IDEs, serviços, bibliotecas etc.) e instalação básica do projeto, descrevendo eventuais versões utilizadas. Colocar um passo a passo de como o leitor pode baixar o seu código e executá-lo a partir de sua máquina ou seu repositório. Considere a explicação organizada em fase.*
+### 📦 Pré-requisitos:
+- **Python 3.10+** instalado  
+- Biblioteca `json` (nativa do Python)  
+- IDE sugerida: **VS Code** ou **IDLE PYTHON**
+
+### ▶️ Passo a passo para execução:
+1. Baixe o repositório ou clone com o comando:
+   ```bash
+   git clone [https://github.com/seuusu.git](https://github.com/rafaelcarvalho567-cloud/Inova-o_em_Agricultura)
+
 
 
 ## 🗃 Histórico de lançamentos
 
-* 0.5.0 - XX/XX/2024
-    * 
-* 0.4.0 - XX/XX/2024
-    * 
-* 0.3.0 - XX/XX/2024
-    * 
-* 0.2.0 - XX/XX/2024
-    * 
-* 0.1.0 - XX/XX/2024
-    *
+*0.5.0 – 14/10/2025 – Adição do código Python e JSON*
+
+*0.4.0 – 13/10/2025 – Estruturação do repositório e organização de pastas*
+
+*0.3.0 – 11/10/2025 – Criação do modelo de dados em JSON*
+
+*0.2.0 – 10/10/2025 – Esboço do projeto e definição de componentes*
+
+*0.1.0 – 08/10/2025 – Início do projeto e planejamento da proposta*
+    
 
 ## 📋 Licença
 
